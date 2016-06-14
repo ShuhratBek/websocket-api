@@ -3,7 +3,7 @@
 import 'reflect-metadata';
 import 'zone.js/dist/zone';
 import 'zone.js/dist/async-test';
-import {Hello} from './hello';
+import {Hello} from './app.component';
 import {describe, it, expect, inject, async, setBaseTestProviders} from '@angular/core/testing';
 import {TestComponentBuilder} from '@angular/compiler/testing';
 import {TEST_BROWSER_STATIC_PLATFORM_PROVIDERS, ADDITIONAL_TEST_BROWSER_PROVIDERS} from '@angular/platform-browser/testing';
